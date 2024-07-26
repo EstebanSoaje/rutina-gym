@@ -90,8 +90,7 @@ export const RutinaHombre = ()=>  {
       </ul>
       <p>Rutina</p>
       <ul>
-        <li>      Press militar en Smith superserie con vuelos laterales 4x12 +15 pesado el press, el vuelo con</li>
-        <li>      mancuerna que de para hacer 15repeticiones estrictas.</li>
+        <li>      Press militar en Smith superserie con vuelos laterales 4x12 +15 pesado el press, el vuelo con mancuerna que de para hacer 15repeticiones estrictas.</li>
         <li>      Vuelo lateral a 1 brazo con mancuerna 3x12+12 descendente</li>
         <li>      Remo a la barbilla con barra súper serie con vuelos frontales con barra 3x15</li>
         <li>      Press arnold con mancuernas superserie con encogimientos 3x15</li>
