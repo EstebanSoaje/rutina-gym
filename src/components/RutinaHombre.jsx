@@ -50,7 +50,8 @@ export const RutinaHombre = ()=>  {
       <ul><li>
         Parado en maquina 4x15</li></ul>
       <h3>  RUTINA</h3>
-      <ul><li>Sentadilla completa en maquina multipower 5x10 (solo la carga que me permita hacer el recorrido
+      <ul>
+        <li>Sentadilla completa en maquina multipower 5x10 (solo la carga que me permita hacer el recorrido
         completo)</li>
         <li>      Extensión de cuádriceps a una pierna 3x12</li>
         <li>Prensa pies en la mitad del cajón 1x30 1x20 2x15 incrementando la carga</li>
