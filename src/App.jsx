@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import {Seleccionador} from './components/Seleccionador.jsx';
-function App() {
-  const [count, setCount] = useState(0)
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {PaginaInicio} from "./pages/PaginaInicio.jsx"
+import {Seleccionador} from "./pages/Seleccionador.jsx"
 
-  return (
-    <>
-    <Seleccionador/>
-    </>
+
+import "./App.css"
+
+export const App = () => {
+
+  return(
+  <>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<PaginaInicio/>}/>
+        <Route path = "/seleccionador" element = {<Seleccionador/>}/>
+      </Routes>
+    </BrowserRouter>
+  </>
   )
 }
-
-export default App

@@ -12,7 +12,6 @@ export const RutinaHombre = ()=>  {
       <p>Calentamiento</p>
       <ul>
         <li>Polea alta al pecho con agarre cerrado (ancho de hombros) 2x15</li>
-        <li>Polea al pecho agarre abierto 3x12 pesadas</li>
       </ul>
       <p>Rutina</p>
       <ul>

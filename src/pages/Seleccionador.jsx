@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import {Link} from "react-router-dom"
 import './Seleccionador.css'
-import { RutinaHombre } from './RutinaHombre.jsx';
-import { RutinaMujer } from './RutinaMujer.jsx';
+import { RutinaHombre } from '../components/RutinaHombre.jsx';
+import { RutinaMujer } from '../components/RutinaMujer.jsx';
 
 
 export const Seleccionador = () => {
@@ -20,8 +21,11 @@ export const Seleccionador = () => {
 
   return (
     <div>
+
       <div className="botonera">
+        
         <button className="botonHombre" onClick={handleShowComponent1}>Rutina Masculina</button>
+  <Link to = "/"><button className="button">Inicio</button></Link>
         <button className="botonMujer" onClick={handleShowComponent2}>Rutina Femenina</button>
       </div>
 
