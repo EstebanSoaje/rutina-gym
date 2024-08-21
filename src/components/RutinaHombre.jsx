@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './RutinaHombre.css'
 
+import { Ejercicio } from './Ejercicio'
+
 export const RutinaHombre = ()=>  {
     const [count, setCount] = useState(0)
   

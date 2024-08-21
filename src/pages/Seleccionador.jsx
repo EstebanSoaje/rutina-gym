@@ -25,7 +25,7 @@ export const Seleccionador = () => {
       <div className="botonera">
         
         <button className="botonHombre" onClick={handleShowComponent1}>Rutina Masculina</button>
-  <Link to = "/"><button className="button">Inicio</button></Link>
+          <Link to = "/"><button className="button">Inicio</button></Link>
         <button className="botonMujer" onClick={handleShowComponent2}>Rutina Femenina</button>
       </div>
 

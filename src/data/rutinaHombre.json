@@ -1,0 +1,224 @@
+{
+    "rutina": [
+      {
+        "dia": "Día 1",
+        "grupoMuscular": "ESPALDA",
+        "calentamiento": [
+          {
+            "ejercicio": "Polea alta al pecho con agarre cerrado (ancho de hombros)",
+            "series": 2,
+            "repeticiones": 15
+          }
+        ],
+        "rutina": [
+          {
+            "ejercicio": "Polea al pecho agarre abierto",
+            "series": 3,
+            "repeticiones": 12,
+            "comentario": "pesadas"
+          },
+          {
+            "ejercicio": "Remo a un brazo en máquina hammer",
+            "series": 4,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Remo T",
+            "series": 4,
+            "repeticiones": [15, 12, 10, 10]
+          },
+          {
+            "ejercicio": "Pull over con máquina o remo con barra agarre supino en polea",
+            "series": 4,
+            "repeticiones": 15,
+            "comentario": "7x10 con 30” de descanso"
+          },
+          {
+            "ejercicio": "Curl a 1 brazo en banco Scott",
+            "series": 3,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Curl con banco Scott polea sentado",
+            "series": 3,
+            "repeticiones": "al fallo"
+          }
+        ]
+      },
+      {
+        "dia": "Día 2",
+        "grupoMuscular": "HOMBROS",
+        "calentamiento": [
+          {
+            "ejercicio": "Vuelo lateral a un brazo con mancuerna",
+            "series": 3,
+            "repeticiones": 15
+          }
+        ],
+        "rutina": [
+          {
+            "ejercicio": "Press militar en Smith o máquina superserie con vuelos laterales",
+            "series": 4,
+            "repeticiones": [12, 15],
+            "comentario": "pesado el press, el vuelo con mancuerna que de para hacer 15 repeticiones estrictas"
+          },
+          {
+            "ejercicio": "Vuelo lateral a 1 brazo con mancuerna",
+            "series": 3,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Remo a la barbilla con barra superserie con vuelos frontales con barra",
+            "series": 3,
+            "repeticiones": 15
+          },
+          {
+            "ejercicio": "Press arnold con mancuernas superserie con encogimientos",
+            "series": 3,
+            "repeticiones": [12, 15]
+          }
+        ]
+      },
+      {
+        "dia": "Día 3",
+        "grupoMuscular": "CUADRICEPS",
+        "calentamiento": [
+          {
+            "ejercicio": "Bici fija con un poco de carga",
+            "duracion": "5 a 7 minutos"
+          },
+          {
+            "ejercicio": "Extensión de cuádriceps en sillón",
+            "series": 3,
+            "repeticiones": 20,
+            "comentario": "bien hechas con recorrido completo, poca carga"
+          }
+        ],
+        "gemelos": [
+          {
+            "ejercicio": "Parado en máquina",
+            "series": 4,
+            "repeticiones": 15
+          }
+        ],
+        "rutina": [
+          {
+            "ejercicio": "Sentadilla completa en máquina multipower",
+            "series": 5,
+            "repeticiones": 10,
+            "comentario": "solo la carga que me permita hacer el recorrido completo"
+          },
+          {
+            "ejercicio": "Extensión de cuádriceps a una pierna",
+            "series": 3,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Prensa pies en la mitad del cajón",
+            "series": [1, 1, 2],
+            "repeticiones": [30, 20, 15],
+            "comentario": "incrementando la carga"
+          },
+          {
+            "ejercicio": "Extensión de cuádriceps en sillón",
+            "series": 4,
+            "repeticiones": 15,
+            "comentario": "pesadas recorrido completo, + 12 descenso"
+          },
+          {
+            "ejercicio": "Camilla de Femorales",
+            "series": 3,
+            "repeticiones": 15
+          }
+        ]
+      },
+      {
+        "dia": "Día 4",
+        "grupoMuscular": "PECHO",
+        "calentamiento": [
+          {
+            "ejercicio": "Peck deck",
+            "series": 3,
+            "repeticiones": 20
+          }
+        ],
+        "rutina": [
+          {
+            "ejercicio": "Press inclinado en máquina",
+            "series": 4,
+            "repeticiones": 10
+          },
+          {
+            "ejercicio": "Aperturas en banco plano",
+            "series": 4,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Press en banco plano con barra bajando al cuello",
+            "series": 4,
+            "repeticiones": [15, 12, 10, 10]
+          },
+          {
+            "ejercicio": "Fondos para pecho",
+            "series": 3,
+            "repeticiones": "hasta no poder más"
+          }
+        ],
+        "triceps": [
+          {
+            "ejercicio": "Press empuje para tríceps en banco plano",
+            "series": [1, 3],
+            "repeticiones": [15, 12],
+            "comentario": "incrementando el peso"
+          },
+          {
+            "ejercicio": "Tríceps a 1 brazo con mancuerna",
+            "series": 3,
+            "repeticiones": 12
+          },
+          {
+            "ejercicio": "Extensión de codo en polea con agarre recto",
+            "series": 3,
+            "repeticiones": [12, 12],
+            "comentario": "descendente"
+          }
+        ]
+      },
+      {
+        "dia": "Día 5",
+        "grupoMuscular": "HOMBROS",
+        "calentamiento": [
+          {
+            "ejercicio": "Vuelo lateral a un brazo con mancuerna",
+            "series": 3,
+            "repeticiones": 15
+          }
+        ],
+        "rutina": [
+          {
+            "ejercicio": "Press militar en Smith superserie con vuelos laterales",
+            "series": 4,
+            "repeticiones": [12, 15],
+            "comentario": "pesado el press, el vuelo con mancuerna que de para hacer 15 repeticiones estrictas"
+          },
+          {
+            "ejercicio": "Vuelo lateral a 1 brazo con mancuerna",
+            "series": 3,
+            "repeticiones": 12,
+            "comentario": "descendente"
+          },
+          {
+            "ejercicio": "Remo a la barbilla con barra superserie con vuelos frontales con barra",
+            "series": 3,
+            "repeticiones": 15
+          },
+          {
+            "ejercicio": "Press arnold con mancuernas superserie con encogimientos",
+            "series": 3,
+            "repeticiones": 15
+          }
+        ]
+      }
+    ]
+  }
+  
