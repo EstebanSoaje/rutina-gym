@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import "./TaTeTi.css"
+import confetti from "canvas-confetti"
 
 const TURNS = {
-  X: 'x',
-  O: 'o'
+  X: '✖️',
+  O: '⭕'
 }
 // Array(9).fill(null)
 // ['x', 'o', 'o', 'x', 'o', 'x', 'x', 'o', 'x']
@@ -53,6 +54,17 @@ const checkWinner = (boardToCheck) => {
   return null
 }
 
+const resetGame = () => {
+  setBoard(Array(9).fill(null))
+  setTurn(TURNS.X)
+  setWinner(null)
+}
+
+const checkEndGame = (newBoard) => {
+
+  return newBoard.every((square) => square !== null)
+}
+
 const updateBoard = (index) => {
 //no se actualiza posicion si ya hay algo
   if (board[index] || winner) return 
@@ -66,7 +78,11 @@ const updateBoard = (index) => {
 //revisamos si hay ganador
   const newWinner = checkWinner(newBoard)
   if (newWinner) {
+    confetti()
     setWinner(newWinner)
+    console.log("El ganador es: " + winner)
+  } else if (checkEndGame(newBoard)) {
+    setWinner(false) // empate
   }
 
 }
@@ -75,6 +91,7 @@ const updateBoard = (index) => {
   return (
     <main className='board'>
       <h1>Ta Te Ti</h1>
+      <button onClick={resetGame}>Empezar de nuevo</button>
       <section className='game'>
         {
           board.map((_, index) => {
@@ -101,7 +118,29 @@ const updateBoard = (index) => {
           {TURNS.O}
         </Square>
       </section>
-          
+
+      {
+        winner !== null && (
+          <section className='winner'>
+            <div className="text">
+              <h2>
+                {
+                  winner === false
+                  ? 'Empate'
+                  : 'Ganó: '
+                }
+              </h2>
+              <header>
+                {winner && <Square>{winner}</Square>}
+              </header>
+
+              <footer>
+                <button onClick={resetGame}>Empezar de nuevo</button>
+              </footer>
+            </div>
+          </section>
+        )
+      }     
     </main>
   )
 }
