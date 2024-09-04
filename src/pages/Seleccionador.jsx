@@ -20,7 +20,7 @@ export const Seleccionador = () => {
   };
 
   return (
-    <div>
+    <>
 
       <div className="botonera">
         
@@ -31,6 +31,6 @@ export const Seleccionador = () => {
 
       {showComponent1 && <RutinaHombre />}
       {showComponent2 && <RutinaMujer />}
-    </div>
+    </>
   );
 };
