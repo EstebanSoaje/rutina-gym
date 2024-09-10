@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import './RutinaMujer.css'
 
 export const RutinaMujer = ()=>  {
-    const [count, setCount] = useState(0)
   
   return (
     <>
