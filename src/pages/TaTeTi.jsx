@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import "./TaTeTi.css"
 import confetti from "canvas-confetti"
+import {Link} from "react-router-dom"
 
 const TURNS = {
   X: '✖️',
@@ -102,6 +103,7 @@ window.localStorage.setItem('turn', newTurn)
 
   return (
     <main className='board'>
+      <Link to = "/"><button className="button">Inicio</button></Link>
       <h1>Ta Te Ti</h1>
       <button onClick={resetGame}>Empezar de nuevo</button>
       <section className='game'>
